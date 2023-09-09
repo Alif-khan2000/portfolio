@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header id="header" style="top: 0px;">
+        <div id="caption">
+            <h2><img src="resource/square.png" alt="" id="square"> Alif Khan&nbsp;</h2> <span id="pro">/ Web Developer</span>
+        </div>
+        <div id="sub-head">
+            <ul id="list">
+                <li id="about"><a href="index.html" id="about-link">ABOUT ME</a></li>
+                <li id="contact"><a href="" id="contact-link" onclick="contact_action()">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="form-style-10" style="position: relative; top: 80px;">
+        <h1>Sign Up Now!<span>Sign up and tell us what you think of the site!</span></h1>
+        <form>
+            <div class="section"><span>1</span>First Name & Address</div>
+            <div class="inner-wrap">
+                <label>Your Full Name <input type="text" name="field1" pattern="^[A-Za-z\s]+$" /></label>
+                <label>Address <textarea name="field2"></textarea></label>
+            </div>
+        
+            <div class="section"><span>2</span>Email & Phone</div>
+            <div class="inner-wrap">
+                <label>Email Address <input type="email" name="field3" /></label>
+                <label>Phone Number <input type="text" name="field4" pattern="^[6-9]\d{9}$" /></label>
+            </div>
+        
+            <div class="section"><span>3</span>Passwords</div>
+            <div class="inner-wrap">
+                <label>Password <input type="password" name="field5" pattern="^.{8,}$" title="Password must be at least 8 characters long" /></label>
+                <label>Confirm Password <input type="password" name="field6" /></label>
+            </div>
+            <div class="button-section">
+                <input type="submit" name="Sign Up" />
+                <span class="privacy-policy">
+                    <input type="checkbox" name="field7">You agree to our Terms and Policy.
+                </span>
+            </div>
+        </form>
+        </div>
+    <footer id="footer">
+        <div class="sub-1">
+            &copy;2023 by Alif Khan.<br>
+            powered and secured by Alif Khan
+        </div>
+        <div class="sub-2">
+            <div class="part-1">
+                <h4>Call</h4>
+                <p>(+91) 123 456 7890
+                </p>
+            </div>
+            <div class="part-2">
+                <h4>Write</h4>
+                <p>alifkhan.n2000@gmail.com</p>
+            </div>
+            <div class="part-3">
+                <h4>Follow</h4>
+                <div class="icons">
+                <img src="resource/facebook.png" alt="" class="icon">
+                <img src="resource/twitter.png" alt="" class="icon">
+                <img src="resource/linkedin.png" alt="" class="icon">
+                <img src="resource/instagram.png" alt="" class="icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

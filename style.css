@@ -253,3 +253,11 @@ h2{
 .icon:hover{
     cursor: pointer;
 }
+#contact-link{
+    text-decoration: none;
+    color: #000000;
+}
+#about-link{
+    text-decoration: none;
+    color: #0098FF;
+}
